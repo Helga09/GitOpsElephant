@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: javaelephant
-        image: helga09/elephant:0.0.11
+        image: helga09/elephant:0.0.12
         ports:
         - containerPort: 7000
 ---
