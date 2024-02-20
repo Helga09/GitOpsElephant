@@ -24,11 +24,6 @@ kind: Service
 metadata:
   name: javaelephant-service
   namespace: default
-   annotations:
-    prometheus.io/port: "metrics"
-    prometheus.io/scrape: "true"
-  labels:
-    app.kubernetes.io/part-of: dms
 spec:
   type: LoadBalancer
   ports:
